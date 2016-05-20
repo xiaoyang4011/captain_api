@@ -56,6 +56,7 @@ function onerror(err) {
 
 ```
 ###目录结构
+```js
 ├── LICENSE
 ├── README.md
 ├── Gruntfile.js
@@ -91,6 +92,7 @@ function onerror(err) {
 │   └── routes.js
 ├── test
 └── package.json
+```
 
 说明
 
