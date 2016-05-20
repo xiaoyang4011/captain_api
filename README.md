@@ -19,7 +19,7 @@ node captain_api.js
 
 ---
 
-###co Examples
+###CO Examples
 ```js
 var co = require('co');
 
