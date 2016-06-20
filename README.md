@@ -63,7 +63,6 @@ function onerror(err) {
 ├── package.json
 ├── captain_api.js
 ├── bin
-│   ├── restart_recluster.sh
 ├── node_modules
 │   ├── beeper_api
 │   ├── express
@@ -91,12 +90,13 @@ function onerror(err) {
 │   ├── app.js
 │   └── routes.js
 ├── test
+├── process.json
 └── package.json
 ```
 
 说明
 
- - bin/restart_recluster.sh 用于线程崩溃重启
+ - process.json 线上pm2部署 $ pm2 start process.json
  - config/env是各个环境配置文件
 
 ---
