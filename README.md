@@ -61,6 +61,7 @@ function onerror(err) {
 ├── README.md
 ├── Gruntfile.js
 ├── package.json
+├── process.json
 ├── captain_api.js
 ├── bin
 ├── node_modules
@@ -89,9 +90,7 @@ function onerror(err) {
 │   ├── util
 │   ├── app.js
 │   └── routes.js
-├── test
-├── process.json
-└── package.json
+└── test
 ```
 
 说明
